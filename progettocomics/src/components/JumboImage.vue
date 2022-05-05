@@ -1,6 +1,8 @@
 <template>
     <div id="jumbo">
-
+        <div class="text">
+            <p> -- CONTENT GOES HERE -- </p>
+        </div>
     </div>
 </template>
 
@@ -20,7 +22,13 @@ export default{
     height: 90px;
 }
 
-body{
-    margin: 0;
+.text{
+    width: 80%;
+    margin:0 auto;
 }
+
+    p{
+        color: white;
+        line-height: 5;
+    }
 </style>
